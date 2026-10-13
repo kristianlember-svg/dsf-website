@@ -1,0 +1,22 @@
+# DSF, Delta for Sustainable Feedstock
+
+> DSF builds the infrastructure that turns fragmented local waste into reliable, certified global feedstock. Fragmented sources in, certified supply out. Tagline: Local Waste to Global Impact.
+
+DSF sources, recovers, aggregates and trades sustainable feedstock (used cooking oil, soapstock, acid oil and waste tyres) from Egypt, the Gulf and Africa for refineries and buyers in global markets, including feedstock for sustainable aviation fuel (SAF).
+
+Key facts:
+- Certifications: ISCC EU, ISCC PLUS, ISCC CORSIA
+- Operating since December 2018; exporting since 2021
+- Volume: 22,000 tonnes of feedstock sourced, aggregated and exported
+- Activities: Collect, Recover, Connect, Aggregate, Trade
+- Pillars: Supply chain (the network), Technology (the data), Social (the people), Environment (the standard)
+
+Brand architecture: DSF is the master brand. Delta Oil (used cooking oil collection and export) and Delta Tyres (tyre collection and pyrolysis recovery) are DSF companies. Delta Plus is a DSF company with its own circular-procurement marketplace and website.
+
+## Main pages
+- [Home](https://www.example.com/): overview of DSF, the system, the businesses and proof
+- [What we do](https://www.example.com/what-we-do/): the five activities and how each stream moves through them
+- [Feedstock streams](https://www.example.com/feedstock/): used cooking oil, soapstock and acid oil, waste tyres
+- [Our businesses](https://www.example.com/businesses/): Delta Oil, Delta Tyres, Delta Plus
+- [Certification and traceability](https://www.example.com/proof/): ISCC certifications, chain of custody, impact figures
+- [Contact](https://www.example.com/contact/): buy feedstock, supply feedstock, partner or invest

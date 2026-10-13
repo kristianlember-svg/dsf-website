@@ -1,0 +1,230 @@
+/* DSF Design System tokens v1.0, generated from DSF Brand Identity V6.
+   Brand colors are the CVI values. Scales, semantic roles, spacing, type scale,
+   breakpoints, motion and elevation are derived for web use. */
+
+:root {
+  /* Brand: CVI main pillars */
+  --dsf-deep-teal: #0B3B38;
+  --dsf-leaf-green: #4B9F5B;
+  --dsf-flow-green: #A9E38B;
+  --dsf-sunset-orange: #F76C3C;
+  --dsf-cream: #F6F4DC;
+  --dsf-white: #FFFFFF;
+  /* teal scale */
+  --dsf-teal-50: #EAFBFA;
+  --dsf-teal-100: #D9F6F5;
+  --dsf-teal-200: #BFEBEA;
+  --dsf-teal-300: #A9DBD8;
+  --dsf-teal-400: #84BEBB;
+  --dsf-teal-500: #60A19D;
+  --dsf-teal-600: #3E8782;
+  --dsf-teal-700: #1E6E69;
+  --dsf-teal-800: #005652;
+  --dsf-teal-900: #0B3B38;
+  --dsf-teal-950: #002826;
+  /* green scale */
+  --dsf-green-50: #F2FAEE;
+  --dsf-green-100: #E7F4E0;
+  --dsf-green-200: #CBF0B7;
+  --dsf-green-300: #A9E38B;
+  --dsf-green-400: #7EC674;
+  --dsf-green-500: #4B9F5B;
+  --dsf-green-600: #3F8C4E;
+  --dsf-green-700: #2D713B;
+  --dsf-green-800: #1E582B;
+  --dsf-green-900: #103D1B;
+  --dsf-green-950: #07290F;
+  /* orange scale */
+  --dsf-orange-50: #FEF4F1;
+  --dsf-orange-100: #FFEAE3;
+  --dsf-orange-200: #FFD7CA;
+  --dsf-orange-300: #FEBEA9;
+  --dsf-orange-400: #FA916E;
+  --dsf-orange-500: #F76C3C;
+  --dsf-orange-600: #CC4517;
+  --dsf-orange-700: #AA2D05;
+  --dsf-orange-800: #881B01;
+  --dsf-orange-900: #630B00;
+  --dsf-orange-950: #450400;
+  /* sand scale */
+  --dsf-sand-50: #FBFAF0;
+  --dsf-sand-100: #F6F4DC;
+  --dsf-sand-200: #E5E3CB;
+  --dsf-sand-300: #D3D1BA;
+  --dsf-sand-400: #B2B39F;
+  --dsf-sand-500: #949584;
+  --dsf-sand-600: #797A6C;
+  --dsf-sand-700: #616156;
+  --dsf-sand-800: #4B4B43;
+  --dsf-sand-900: #33332F;
+  --dsf-sand-950: #22221F;
+  /* feedback bases */
+  --dsf-red-500: #D33B36;
+  --dsf-red-100: #FEE9E6;
+  --dsf-red-700: #A12623;
+  --dsf-amber-500: #F2B036;
+  --dsf-amber-100: #FEF0D4;
+  --dsf-amber-800: #7B5117;
+  /* type */
+  --dsf-font-sans: 'Neue Reman GT', 'Lexend', 'Readex Pro', ui-sans-serif, system-ui, sans-serif;
+  --dsf-font-arabic: 'Ping AR+LT', 'Readex Pro', 'Noto Sans Arabic', system-ui, sans-serif;
+  --dsf-font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --dsf-text-display: clamp(2.75rem, 1.4rem + 5vw, 5.5rem);
+  --dsf-weight-display: 600;
+  --dsf-leading-display: 1.02;
+  --dsf-tracking-display: -0.015em;
+  --dsf-text-h1: clamp(2.25rem, 1.5rem + 2.8vw, 3.75rem);
+  --dsf-weight-h1: 600;
+  --dsf-leading-h1: 1.06;
+  --dsf-tracking-h1: -0.01em;
+  --dsf-text-h2: clamp(1.75rem, 1.35rem + 1.5vw, 2.625rem);
+  --dsf-weight-h2: 600;
+  --dsf-leading-h2: 1.12;
+  --dsf-tracking-h2: -0.005em;
+  --dsf-text-h3: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);
+  --dsf-weight-h3: 600;
+  --dsf-leading-h3: 1.2;
+  --dsf-tracking-h3: 0;
+  --dsf-text-h4: 1.25rem;
+  --dsf-weight-h4: 600;
+  --dsf-leading-h4: 1.3;
+  --dsf-tracking-h4: 0;
+  --dsf-text-eyebrow: 0.8125rem;
+  --dsf-weight-eyebrow: 600;
+  --dsf-leading-eyebrow: 1.3;
+  --dsf-tracking-eyebrow: 0.14em;
+  --dsf-text-body-lg: 1.1875rem;
+  --dsf-weight-body-lg: 400;
+  --dsf-leading-body-lg: 1.6;
+  --dsf-tracking-body-lg: 0;
+  --dsf-text-body: 1rem;
+  --dsf-weight-body: 400;
+  --dsf-leading-body: 1.65;
+  --dsf-tracking-body: 0;
+  --dsf-text-small: 0.875rem;
+  --dsf-weight-small: 400;
+  --dsf-leading-small: 1.55;
+  --dsf-tracking-small: 0.005em;
+  --dsf-text-caption: 0.75rem;
+  --dsf-weight-caption: 500;
+  --dsf-leading-caption: 1.4;
+  --dsf-tracking-caption: 0.02em;
+  /* space (4px base) */
+  --dsf-space-0: 0rem;
+  --dsf-space-0-5: 0.125rem;
+  --dsf-space-1: 0.25rem;
+  --dsf-space-2: 0.5rem;
+  --dsf-space-3: 0.75rem;
+  --dsf-space-4: 1rem;
+  --dsf-space-5: 1.25rem;
+  --dsf-space-6: 1.5rem;
+  --dsf-space-8: 2rem;
+  --dsf-space-10: 2.5rem;
+  --dsf-space-12: 3rem;
+  --dsf-space-16: 4rem;
+  --dsf-space-20: 5rem;
+  --dsf-space-24: 6rem;
+  --dsf-space-32: 8rem;
+  /* radius */
+  --dsf-radius-xs: 4px;
+  --dsf-radius-sm: 8px;
+  --dsf-radius-md: 12px;
+  --dsf-radius-lg: 20px;
+  --dsf-radius-xl: 32px;
+  --dsf-radius-pill: 999px;
+  --dsf-radius-leaf: 0 var(--dsf-radius-xl) 0 var(--dsf-radius-xl);
+  /* layout */
+  --dsf-container: 76rem;
+  --dsf-container-narrow: 46rem;
+  --dsf-gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --dsf-section-y: clamp(4rem, 2.5rem + 6vw, 8rem);
+  /* motion */
+  --dsf-duration-fast: 120ms;
+  --dsf-duration-base: 200ms;
+  --dsf-duration-slow: 360ms;
+  --dsf-duration-reveal: 640ms;
+  --dsf-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --dsf-ease-flow: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dsf-ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  /* elevation */
+  --dsf-shadow-sm: 0 1px 2px rgba(11, 59, 56, 0.08);
+  --dsf-shadow-md: 0 4px 12px -2px rgba(11, 59, 56, 0.12), 0 2px 4px rgba(11, 59, 56, 0.06);
+  --dsf-shadow-lg: 0 18px 40px -12px rgba(11, 59, 56, 0.25);
+  /* gradients (CVI gradient palette) */
+  --dsf-gradient-flow: linear-gradient(45deg, #4B9F5B 0%, #A9E38B 100%);
+  --dsf-gradient-mint: linear-gradient(45deg, #CDEDB4 0%, #A9E38B 100%);
+  --dsf-gradient-deep: linear-gradient(45deg, #0B3B38 0%, #2B7A52 100%);
+  --dsf-gradient-sunset: linear-gradient(45deg, #F76C3C 0%, #F6EBCB 100%);
+  --dsf-gradient-horizon: radial-gradient(120% 90% at 0% 0%, #F76C3C 0%, rgba(247,108,60,0) 55%), radial-gradient(90% 80% at 100% 10%, #A9E38B 0%, rgba(169,227,139,0) 60%), linear-gradient(180deg, #4B9F5B 0%, #0B3B38 100%);
+  --dsf-gradient-canopy: radial-gradient(80% 70% at 100% 0%, rgba(75,159,91,0.9) 0%, rgba(75,159,91,0) 70%), #0B3B38;
+}
+
+/* Breakpoints (use in media queries): sm 480px, md 768px, lg 1024px, xl 1280px, 2xl 1536px */
+
+/* Surface modes: put .dsf-light or .dsf-dark on any section. Components read --ds-* roles. */
+:root, .dsf-light {
+  --ds-bg: #FBFAF0;
+  --ds-bg-alt: #F6F4DC;
+  --ds-surface: #FFFFFF;
+  --ds-surface-sunken: #E5E3CB;
+  --ds-fg: #0B3B38;
+  --ds-fg-muted: #1E6E69;
+  --ds-fg-subtle: #3E8782;
+  --ds-border: #D3D1BA;
+  --ds-border-strong: #3E8782;
+  --ds-action: #0B3B38;
+  --ds-action-hover: #005652;
+  --ds-on-action: #F6F4DC;
+  --ds-action-secondary-fg: #0B3B38;
+  --ds-accent: #F76C3C;
+  --ds-accent-hover: #FA916E;
+  --ds-on-accent: #0B3B38;
+  --ds-highlight: #A9E38B;
+  --ds-on-highlight: #0B3B38;
+  --ds-link: #2D713B;
+  --ds-link-hover: #0B3B38;
+  --ds-focus: #0B3B38;
+  --ds-success: #2D713B;
+  --ds-success-bg: #E7F4E0;
+  --ds-warning: #7B5117;
+  --ds-warning-bg: #FEF0D4;
+  --ds-danger: #A12623;
+  --ds-danger-bg: #FEE9E6;
+  --ds-info: #1E6E69;
+  --ds-info-bg: #D9F6F5;
+  background-color: var(--ds-bg);
+  color: var(--ds-fg);
+}
+.dsf-dark {
+  --ds-bg: #0B3B38;
+  --ds-bg-alt: #002826;
+  --ds-surface: #005652;
+  --ds-surface-sunken: #002826;
+  --ds-fg: #F6F4DC;
+  --ds-fg-muted: #D3D1BA;
+  --ds-fg-subtle: #BFEBEA;
+  --ds-border: #1E6E69;
+  --ds-border-strong: #84BEBB;
+  --ds-action: #A9E38B;
+  --ds-action-hover: #CBF0B7;
+  --ds-on-action: #0B3B38;
+  --ds-action-secondary-fg: #F6F4DC;
+  --ds-accent: #F76C3C;
+  --ds-accent-hover: #FA916E;
+  --ds-on-accent: #0B3B38;
+  --ds-highlight: #A9E38B;
+  --ds-on-highlight: #0B3B38;
+  --ds-link: #A9E38B;
+  --ds-link-hover: #F6F4DC;
+  --ds-focus: #A9E38B;
+  --ds-success: #A9E38B;
+  --ds-success-bg: #005652;
+  --ds-warning: #F2B036;
+  --ds-warning-bg: #002826;
+  --ds-danger: #FB988D;
+  --ds-danger-bg: #002826;
+  --ds-info: #BFEBEA;
+  --ds-info-bg: #005652;
+  background-color: var(--ds-bg);
+  color: var(--ds-fg);
+}

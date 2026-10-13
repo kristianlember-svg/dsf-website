@@ -1,0 +1,21 @@
+# DSF, Delta for Sustainable Feedstock
+# Search engines and AI assistants are welcome to read and cite this site.
+User-agent: *
+Allow: /
+Disallow: /docs/
+
+# AI crawlers (listed explicitly so the intent is clear)
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /
+Disallow: /docs/
+
+Sitemap: https://www.example.com/sitemap.xml
