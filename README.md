@@ -41,6 +41,7 @@ Links are relative (`company/about/`), so the site also works when opened from a
 2. Fill every element marked `class="tbc"` (search for `tbc`): export date, chain-of-custody standard, CO₂e and GHG figures.
 3. Add the Delta Plus URL and LinkedIn URL (also add LinkedIn to JSON-LD `sameAs`).
 4. Replace CVI mock-up photos in `assets/img/photos/` with real photography (keep 800w + 1600w, WebP + JPG).
+   The hero video in `assets/video/` is a placeholder loop made from those mock-ups. Swap in real footage with the same file names (720p, 10-20 s, muted, ~1.5 MB each for WebM + MP4, plus a poster frame).
 5. When brand fonts are licensed, add their `@font-face` rules to `fonts.css`.
 6. In `.htaccess`, enable the HTTPS and canonical-host redirects; point the old Delta Oil domain to `/businesses/delta-oil/` with a 301.
 7. Do not upload `docs/` or `README.md`.

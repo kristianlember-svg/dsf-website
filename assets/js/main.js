@@ -126,6 +126,32 @@
     });
   }
 
+  /* ---- Hero background video: pause control, reduced motion, offscreen pause ---- */
+  var video = document.querySelector('[data-hero-video]');
+  var vToggle = document.querySelector('[data-video-toggle]');
+  if (video && vToggle) {
+    var vLabel = vToggle.querySelector('[data-video-toggle-label]');
+    var userPaused = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function syncToggle() {
+      vToggle.setAttribute('aria-pressed', String(userPaused));
+      vLabel.textContent = userPaused ? 'Play video' : 'Pause video';
+    }
+    function play() { var p = video.play(); if (p && p.catch) p.catch(function () {}); }
+    if (userPaused) { video.removeAttribute('autoplay'); video.pause(); }
+    syncToggle();
+    vToggle.addEventListener('click', function () {
+      userPaused = !userPaused;
+      if (userPaused) video.pause(); else play();
+      syncToggle();
+    });
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        if (userPaused) return;
+        if (entries[0].isIntersecting) play(); else video.pause();
+      }).observe(video);
+    }
+  }
+
   /* ---- Footer year ---- */
   var year = document.querySelector('[data-year]');
   if (year) year.textContent = String(new Date().getFullYear());

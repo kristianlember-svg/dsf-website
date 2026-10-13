@@ -167,8 +167,17 @@
 
   <!-- ============ 1. HERO ============ -->
   <section class="hero dsf-dark" aria-labelledby="hero-title">
-    <div class="hero__pattern" aria-hidden="true"></div>
-    <div class="container hero__grid">
+    <div class="hero__bg" aria-hidden="true">
+      <!-- Placeholder loop built from CVI photos. Swap for real footage: keep the same file names,
+           720p, 10-20 s, muted, about 1.5 MB per format. -->
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata"
+             poster="assets/video/hero-poster.jpg" data-hero-video>
+        <source src="assets/video/hero-loop-720.webm" type="video/webm">
+        <source src="assets/video/hero-loop-720.mp4" type="video/mp4">
+      </video>
+      <div class="hero__scrim"></div>
+    </div>
+    <div class="container hero__inner">
       <div class="hero__copy">
         <p class="eyebrow">Delta for Sustainable Feedstock</p>
         <h1 id="hero-title" class="hero__title">Local waste to <span class="hl">global impact.</span></h1>
@@ -178,16 +187,16 @@
           <a class="btn btn--ghost btn--lg" href="#system">See how the system works</a>
         </div>
       </div>
-      <figure class="hero__media">
-        <picture>
-          <source type="image/webp" srcset="assets/img/photos/aggregation-terminal-800.webp 800w, assets/img/photos/aggregation-terminal-1600.webp 1600w" sizes="(min-width: 1024px) 40vw, 100vw">
-          <img src="assets/img/photos/aggregation-terminal-800.jpg" srcset="assets/img/photos/aggregation-terminal-800.jpg 800w, assets/img/photos/aggregation-terminal-1600.jpg 1600w" sizes="(min-width: 1024px) 40vw, 100vw" width="1600" height="900" alt="DSF aggregation terminal with storage tanks and two team members in safety vests" fetchpriority="high">
-        </picture>
-        <figcaption class="hero__chip">
+      <div class="hero__foot">
+        <p class="hero__chip">
           <span class="hero__chip-label">Certified</span>
           <span class="hero__chip-value">ISCC EU · PLUS · CORSIA</span>
-        </figcaption>
-      </figure>
+        </p>
+        <button class="hero__toggle" type="button" aria-pressed="false" data-video-toggle>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path class="i-pause" d="M4 3h3v10H4zM9 3h3v10H9z"/><path class="i-play" d="M4 2.5v11l9-5.5z"/></svg>
+          <span data-video-toggle-label>Pause video</span>
+        </button>
+      </div>
     </div>
   </section>
 
